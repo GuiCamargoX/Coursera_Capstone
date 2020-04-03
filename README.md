@@ -19,7 +19,7 @@ This project proposes helps foreign people to visit Brazil and also helps Brazil
 
 ## Data <a name="data"></a>
 
-Based on the definition of our problem, factors that will influence our decision are the categories of each neighborhood using **Foursquare API*.
+Based on the definition of our problem, factors that will influence our decision are the categories of each neighborhood using **Foursquare API**.
 
 Following data sources will be needed to extract/generate the required information:
 * explore each neighborhood city
@@ -29,16 +29,16 @@ Following data sources will be needed to extract/generate the required informati
 This project can be divided into 2 parts.
 
 The first part is made of analyzing neighborhoods, following these steps:
-    1. Extract neighborhood from wikipedia - web scraping
-    2. Get the location of each neighborhood, using geocoder
-    3. Explore the points in a map - Folium
-    4. Now that we have our location, let's use Foursquare API to get info in each neighborhood.
-    5. Analyze each neighborhood - group rows by neighborhood and by taking the mean of the frequency of occurrence of each category
-    6. Save the new DataFrame into Folder Dataset. This will be used in part 2 of this project which will be to analyze the cities
-    7. Display the top 10 venues for each neighborhood
-    8. Run k-means to cluster the neighborhood into 5 clusters
-    9. Includes the cluster as well as the top 10 venues for each neighborhood
-    10. Compare the neighborhood by each cluster
+1. Extract neighborhood from wikipedia - web scraping
+2. Get the location of each neighborhood, using geocoder
+3. Explore the points in a map - Folium
+4. Now that we have our location, let's use Foursquare API to get info in each neighborhood.
+5. Analyze each neighborhood - group rows by neighborhood and by taking the mean of the frequency of occurrence of each category
+6. Save the new DataFrame into Folder Dataset. This will be used in part 2 of this project which will be to analyze the cities
+7. Display the top 10 venues for each neighborhood
+8. Run k-means to cluster the neighborhood into 5 clusters
+9. Includes the cluster as well as the top 10 venues for each neighborhood
+10. Compare the neighborhood by each cluster
 
 
 Repeat the steps above for each city. The following notebook represents:
